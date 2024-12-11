@@ -3,48 +3,15 @@ import React from "react";
 function Home() {
 
     return (
-        <div
-            className="nes-container  with-title"
-            style={{
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100vh', // Full viewport height
-                textAlign: 'center', // Center text
-            }}
-        >
-            <span className="nes-text is-primary">Primary</span>
-            <span className="nes-text is-success">Success</span>
-            <span className="nes-text is-warning">Warning</span>
-            <span className="nes-text is-error">Error</span>
-            <span className="nes-text is-disabled">Disabled</span>
-
-            <a className="nes-btn" href="#">
-                Normal
-            </a>
-
-            <button type="button" className="nes-btn is-primary">
-                Primary
-            </button>
-            <button type="button" className="nes-btn is-success">
-                Success
-            </button>
-            <button type="button" className="nes-btn is-warning">
-                Warning
-            </button>
-            <button type="button" className="nes-btn is-error">
-                Error
-            </button>
-            <button type="button" className="nes-btn is-disabled">
-                Disabled
-            </button>
-
-            <div className="lists">
-                <ul className="nes-list is-disc">
-                    <li>Coming Soon...</li>
-                </ul>
+        <div className="bg-black min-h-screen flex flex-col justify-center items-center pt-4">
+            <span className="nes-text is-primary mb-4">Coming Soon.</span>
+            <div className="flex justify-center items-center h-screen"> 
+                <img src="/osLogo.webp" alt="Osprey Team Logo" className="max-w-[40%] h-auto" /> 
             </div>
+                
+
+
+
         </div>
     );
 
